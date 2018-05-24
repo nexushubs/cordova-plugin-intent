@@ -7,3 +7,8 @@ Includes just a small change within plugin.xml to use the correct package path/n
 
 /cordova was missing...and the plugin class could not be instantiated by cordova, at least in my case...
 
+# Installation:
+```
+$ ionic cordova plugin add @fcarreno/cordova-plugin-intent
+```
+
