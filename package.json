@@ -1,6 +1,6 @@
 {
   "name": "@fcarreno/cordova-plugin-intent",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "General purpose intent shim layer for cordova appliations on Android.  Handles various techniques for sending and receiving intents.",
   "main": "intentShim.js",
   "cordova": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fcarreno/darryncampbell-cordova-plugin-intent.git"
+    "url": "https://github.com/fcarreno/cordova-plugin-intent.git"
   },
   "keywords": [
     "ecosystem:cordova",

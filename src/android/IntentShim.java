@@ -213,6 +213,13 @@ public class IntentShim extends CordovaPlugin {
             }
 
             Intent intent = cordova.getActivity().getIntent();
+           // if(intent.getFlags() == (Intent.FLAG_ACTIVITY_LAUNCHED_FROM_HISTORY | Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_TASK_ON_HOME)){
+           // NOTE: below if is simpler than the above one.
+           // Just checks if a specific flag was 'activated' / set on launch intent creation (vs. multiple ones on the check above)
+           // Source: https://stackoverflow.com/a/29875943
+           if((intent.getFlags() & Intent.FLAG_ACTIVITY_LAUNCHED_FROM_HISTORY) != 0){
+                  intent.putExtra("appWasResumed", true);
+            }
             callbackContext.sendPluginResult(new PluginResult(PluginResult.Status.OK, getIntentJson(intent)));
             return true;
         }
