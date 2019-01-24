@@ -13,3 +13,8 @@ With the following:
 
 * Updated the `getIntent` action, in order to add one extra to it, whenever the app was launched from recent apps (means it was resumed, and not really launched from icon on home screen/notification).
 This way, the consuming application will be able to to determine the appropriate routing/state/screen, depending on whether the app was launched vs. resumed/recovered from recent apps...
+
+#### Installation:
+```
+$ ionic cordova plugin add @fcarreno/cordova-plugin-intent
+```
