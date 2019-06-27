@@ -1,10 +1,10 @@
 {
   "name": "@fcarreno/cordova-plugin-intent",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "General purpose intent shim layer for cordova appliations on Android.  Handles various techniques for sending and receiving intents.",
   "main": "intentShim.js",
   "cordova": {
-    "id": "com-darryncampbell-cordova-plugin-intent",
+    "id": "cordova-plugin-intent",
     "platforms": [
       "android"
     ]
@@ -15,9 +15,16 @@
   },
   "keywords": [
     "ecosystem:cordova",
-	"cordova-android",
+    "cordova-android",
     "Intent"
   ],
   "author": "Darryn Campbell",
-  "license": "MIT"
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fcarreno/cordova-plugin-intent/issues"
+  },
+  "homepage": "https://github.com/fcarreno/cordova-plugin-intent#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
 }
