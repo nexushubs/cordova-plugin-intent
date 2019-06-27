@@ -16,5 +16,5 @@ This way, the consuming application will be able to to determine the appropriate
 
 #### Installation:
 ```
-$ ionic cordova plugin add @fcarreno/cordova-plugin-intent
+$ ionic cordova plugin add cordova-plugin-intent-updated
 ```
