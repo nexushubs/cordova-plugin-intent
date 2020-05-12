@@ -1,5 +1,5 @@
 {
-  "name": "cordova-plugin-intent-updated",
+  "name": "cordova-plugin-intent",
   "version": "1.0.2",
   "description": "General purpose intent shim layer for cordova appliations on Android.  Handles various techniques for sending and receiving intents.",
   "main": "intentShim.js",
