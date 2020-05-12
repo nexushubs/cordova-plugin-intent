@@ -4,7 +4,7 @@
   "description": "General purpose intent shim layer for cordova appliations on Android.  Handles various techniques for sending and receiving intents.",
   "main": "intentShim.js",
   "cordova": {
-    "id": "cordova-plugin-intent-updated",
+    "id": "cordova-plugin-intent",
     "platforms": [
       "android"
     ]
